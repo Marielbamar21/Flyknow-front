@@ -86,7 +86,7 @@ export default {
           const points = this.getQuestions.map((item) => item.points)
 
           const payload = {
-            "points" :  points.reduce((acum,value)=> acum + value , 0 )
+            "points" :  points.reduce((acum,value)=> acum + value , 0 ) 
           }
           const respuesta= await axios.put(`http://localhost:3000/api/user/AcumPoints?id=${this.getUser._id}`, payload);
           const res=respuesta.data.body

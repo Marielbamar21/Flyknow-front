@@ -49,7 +49,7 @@ export default {
     background-color: #fafafa;
 }
 .btn-container-second {
-    border: none;
+    border: none;  
     display: flex;
     flex-direction: row-reverse;
     margin: 5%;

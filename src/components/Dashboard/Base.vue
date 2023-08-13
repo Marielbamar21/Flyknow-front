@@ -39,7 +39,7 @@ background-color:transparent;
 }
 .base ::after {
     content: '';
-  display: block;   
+  display: block;    
 }
 .container {
     min-width: 23rem;

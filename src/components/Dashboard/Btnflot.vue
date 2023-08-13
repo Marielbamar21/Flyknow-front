@@ -32,7 +32,7 @@ export default {
 
 @media only screen and (max-width: 600px) {
 .btn-flotante {
-		font-size: 14px;
+		font-size: 14px; 
 		padding: 12px 20px;
 		bottom: 20px;
 		right: 20px;

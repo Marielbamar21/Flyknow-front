@@ -77,8 +77,8 @@ export default {
 .center-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: center; 
+  height: 100vh; 
 }
 v-btn {
   width: 15 rem;
