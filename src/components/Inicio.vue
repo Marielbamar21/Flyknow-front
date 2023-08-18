@@ -4,7 +4,7 @@
       <v-card class="card-loging">
         <v-card-text>
           <div class="logo-container">
-            <img src="../assets/Logo.png" >
+            <img src="../assets/logo.png" >
           </div>
           <v-form >
             <v-text-field label="Nombre"   v-model="firstname" :rules="rules"></v-text-field>
