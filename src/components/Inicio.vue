@@ -53,7 +53,7 @@ export default {
       }
       
 
-      const respuesta =  await axios.post('http://localhost:3000/api/user/NewUser', payload);
+      const respuesta =  await axios.post(' https://fleyknow-backend.onrender.com/api/user/NewUser', payload);
       const res=respuesta.data.body;
 
       console.log(typeof(res));

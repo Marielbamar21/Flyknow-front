@@ -88,7 +88,7 @@ export default {
           const payload = {
             "points" :  points.reduce((acum,value)=> acum + value , 0 ) 
           }
-          const respuesta= await axios.put(`http://localhost:3000/api/user/AcumPoints?id=${this.getUser._id}`, payload);
+          const respuesta= await axios.put(`https://fleyknow-backend.onrender.com/api/user/AcumPoints?id=${this.getUser._id}`, payload);
           const res=respuesta.data.body
           localStorage.setItem('storedUser', JSON.stringify(res));
 
